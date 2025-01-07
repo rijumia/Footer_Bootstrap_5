@@ -39,7 +39,7 @@
     font-weight: 300;
 }
 .newsletter_section .btn:hover {
-    background: red;
+    background: #FF9D23;
     color: #fff
 }
 .newsletter_section .form-control:focus {
