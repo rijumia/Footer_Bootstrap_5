@@ -1,34 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Bootstrap 5 Footer</title>
     <link rel="shortcut icon" href="assets/img/footer.png" type="image/x-icon">
     <!-- Bootstrap 5 Min CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap 5 Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Font Awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+
     
 
-    <footer class="footer bg-danger">
+    <section class="newsletter_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <h2>SUBSCRIBE NOW</h2>
+                        <h6 class="content-tuned">Subscribe to our newsletter and stay tuned with future updates</h6>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter email to subscribe">
+                            <span class="input-group-btn">
+                                <button class="btn" type="submit">Subscribe Now</button>
+                        </div>
+                        <div class="text-center">
+
+                            <a class="unsubscribe-link" href="#">Would you like to unsubscribe?</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer_section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
                     <div class="information">
                         <h6 class="footer-heading text-uppercase text-white fw-bold">Information</h6>
                         <ul class="list-unstyled footer-link mt-4">
-                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Events</a></li>
-                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Our Team</a></li>
-                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Upcoming Sale</a></li>
-                            <li class=""><a href="#" class="text-white text-decoration-none fw-semibold">New Launches</a></li>
+                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Events</a>
+                            </li>
+                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Our
+                                    Team</a></li>
+                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Upcoming
+                                    Sale</a></li>
+                            <li class=""><a href="#" class="text-white text-decoration-none fw-semibold">New
+                                    Launches</a></li>
                         </ul>
                     </div>
                 </div>
@@ -36,42 +70,58 @@
                     <div class="resources">
                         <h6 class="footer-heading text-uppercase text-white fw-bold">Resources</h6>
                         <ul class="list-unstyled footer-link mt-4">
-                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">API</a></li>
-                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Website Tutorials</a></li>
-                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Third Party</a></li>
-                            <li class=""><a href="#" class="text-white text-decoration-none fw-semibold">Video Lectures</a></li>
+                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">API</a>
+                            </li>
+                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Website
+                                    Tutorials</a></li>
+                            <li class="mb-1"><a href="#" class="text-white text-decoration-none fw-semibold">Third
+                                    Party</a></li>
+                            <li class=""><a href="#" class="text-white text-decoration-none fw-semibold">Video
+                                    Lectures</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 mt-4 col-lg-2 text-center text-sm-start">
-                  <div class="social">
-                      <h6 class="footer-heading text-uppercase text-white fw-bold">Social</h6>
-                      <ul class="list-inline my-4">
-                        <li class="list-inline-item"><a href="#" class="text-white btn-sm btn btn-primary mb-2"><i class="bi bi-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#" class="text-danger btn-sm btn btn-light mb-2"><i class="bi bi-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="#" class="text-white btn-sm btn btn-primary mb-2"><i class="bi bi-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#" class="text-white btn-sm btn btn-success mb-2"><i class="bi bi-whatsapp"></i></a></li>
-                    </ul>
-                  </div>
-              </div>
+                    <div class="social">
+                        <h6 class="footer-heading text-uppercase text-white fw-bold">Social</h6>
+                        <ul class="list-inline my-4">
+                            <li class="list-inline-item"><a href="#" class="text-white btn-sm btn btn-primary mb-2"><i
+                                        class="bi bi-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-danger btn-sm btn btn-light mb-2"><i
+                                        class="bi bi-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white btn-sm btn btn-primary mb-2"><i
+                                        class="bi bi-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white btn-sm btn btn-success mb-2"><i
+                                        class="bi bi-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-md-6 mt-4 col-lg-4 text-center text-sm-start">
-                  <div class="contact">
-                      <h6 class="footer-heading text-uppercase text-white fw-bold">Contact Us</h6>
-                      <address class="mt-4 m-0 text-white mb-1"><i class="bi bi-pin-map fw-semibold"></i> New South Block , Mirpur , Dhaka-1216</address>
-                      <a href="tel:+" class="text-white mb-1 text-decoration-none d-block fw-semibold"><i class="bi bi-telephone"></i>  +8801XXXXXXXXX</a>
-                      <a href="mailto:" class="text-white mb-1 text-decoration-none d-block fw-semibold"><i class="bi bi-envelope"></i> XXXXXX@gmail.com</a>
-                      <a href="" class="text-white text-decoration-none fw-semibold"><i class="bi bi-skype"></i> xyzdemomail</a>
-                  </div>
+                    <div class="contact">
+                        <h6 class="footer-heading text-uppercase text-white fw-bold">Contact Us</h6>
+                        <address class="mt-4 m-0 text-white mb-1"><i class="bi bi-pin-map fw-semibold"></i> New South
+                            Block , Mirpur , Dhaka-1216</address>
+                        <a href="tel:+" class="text-white mb-1 text-decoration-none d-block fw-semibold"><i
+                                class="bi bi-telephone"></i> +8801XXXXXXXXX</a>
+                        <a href="mailto:" class="text-white mb-1 text-decoration-none d-block fw-semibold"><i
+                                class="bi bi-envelope"></i> XXXXXX@gmail.com</a>
+                        <a href="" class="text-white text-decoration-none fw-semibold"><i class="bi bi-skype"></i>
+                            xyzdemomail</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="text-center bg-success text-white mt-4 p-1">
-            <p class="mb-0 fw-bold"><script>document.write(new Date().getFullYear())</script> © Riju, All Rights Reserved</p>
+        <hr>
+        <div class="text-center bg-warning text-white mt-4 py-1">
+            <p class="mb-0 fw-bold">
+                <script>document.write(new Date().getFullYear())</script> © Riju, All Rights Reserved
+            </p>
         </div>
-      </footer>
+    </footer>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,65 @@
+.newsletter_section {
+    padding: 80px 0;
+    background: #009c4c;
+}
+.newsletter_section .content {
+
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+
+}
+.newsletter_section .content-tuned {
+    font-size: 0.8rem;
+    margin-bottom: 34px !important;
+    color: #fff;
+}
+.newsletter_section h2 {
+
+    color: #fff;
+    margin-bottom: 6px;
+}
+.newsletter_section .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 2px 0px 0px 2px;
+}
+.newsletter_section .form-control:focus {
+    box-shadow: none !important;
+    border: 2px solid #243c4f;
+    border-color: none;
+}
+.newsletter_section .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #ffc107;
+    color: #fff;
+    font-weight: 300;
+}
+.newsletter_section .btn:hover {
+    background: red;
+    color: #fff
+}
+.newsletter_section .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25) !important;
+}
+.newsletter_section .unsubscribe-link {
+    text-decoration: none !important;
+    font-size: 13px;
+    color: #fff;
+}
+.newsletter_section .unsubscribe-link:hover {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.footer_section{
+    background: #FBC50B;
+    color: #fff;
+}
