@@ -28,7 +28,7 @@
 }
 .newsletter_section .form-control:focus {
     box-shadow: none !important;
-    border: 2px solid #243c4f;
+    border: 2px solid #ffc107;
     border-color: none;
 }
 .newsletter_section .btn {
@@ -45,9 +45,9 @@
 .newsletter_section .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #80bdff;
+    border-color: #ffc107;
     outline: 0;
-    box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25) !important;
+    box-shadow: 0 0 0 0rem #ffc107 !important;
 }
 .newsletter_section .unsubscribe-link {
     text-decoration: none !important;
